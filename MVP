@@ -1,0 +1,14 @@
+
+
+Movie data from 2006 to 2017 is used to describe movie Gross and movie IMDB ratings.   Linear regression with a 
+single feature, budget, was used. 
+
+The first figure shows the Gross model (red) compared to the data points (blue). The prediction interval is shown
+with black line.
+Similarly, the second figure shows IMDB rating (red) compared to the data points (blue) with the prediction 
+interval as black lines. 
+
+Future work includes adding the additional features of movie genre, director, and production comany to the model 
+for both Gross and IMDB score. 
+Additionaly, the budget coefficient is quite small for IMDB rating, so various transformations should be 
+explored to further investigate. 
