@@ -41,9 +41,7 @@ In both cases, the random forest model provided the predictions with the highest
 precision for each class and the number of predictions of class 1 that were actually class 3. Decision trees and KNN were close 
 in precision, with logistic regression and SVM far behind at values of 77% and 49%, respectively.
 
-![alt text][logo2]
-
-[logo2]: https://github.com/TorrBorr/My_Projects/blob/master/Project_3/Random_Trees_Confusion_Martix.png "Random Forest Confusion Matrix"
+<img src="https://github.com/TorrBorr/My_Projects/blob/master/Project_3/Random_Trees_Confusion_Martix.png" width="300">
 
 
 | Model              | Class 1 Precision | Class 2 Precision | Class 3 Precision | Class 3 predicted as Class 1 |
@@ -68,10 +66,7 @@ as the cost of healthcare increases with increased age, higher income areas attr
 expensive and advanced treatments, and the greater number of uninsured patients a hospital sees, the more costs they have to 
 distribute to other patients to balance the costs. 
 
-![alt text][logo3]
-
-[logo3]: https://github.com/TorrBorr/My_Projects/blob/master/Project_3/Random_trees_feature_importance.png "Random Forest Feature Importance"
-
+<img src="https://github.com/TorrBorr/My_Projects/blob/master/Project_3/Random_trees_feature_importance.png" width="500">
 
 In the second model,  each provider's  cost  was compared to the state average rather than the national average.  The same
 factors are again seen as the strongest predictors.  Since the impact of the state is partially accounted for in the class 
