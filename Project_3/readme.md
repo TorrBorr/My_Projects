@@ -1,11 +1,11 @@
-### Objective:
+#### Objective:
 Many patients are frustrated by the continuously rising health care costs in the U.S. and the lack of transparency in the
 medical charging system: the prices of procedures and tests are not known up front, differ from location to location, and often 
 seem disproportionate to the actual level of care received.  A tool to help negotiate this system could allow patients to find
 the most economical solution for their healthcare needs.  I built a predictive model that indicates whether a provider will be
 expensive or inexpensive based on information about the institution, location and community attributes. 
 
-### Data:
+#### Data:
 The  negotiations that determine the actual costs to patients pay happen between insurance companies and medical providers 
 behind closed doors and are not available to the public. However, the Medicare Provider Utilization and Payment dataset offers 
 a glimpse into the charges that medical providers bill for their services. The dataset gives information about the services and 
@@ -21,7 +21,7 @@ insurance coverage information for specific predictive community attributes.
 [logo1]: https://github.com/TorrBorr/My_Projects/blob/master/Project_3/Hospital_visit_cost_CO.png ""
 
 
-### Methods:
+#### Methods:
 My approach was to classify the charges of each provider as above average, approximately average and below average in price. 
 Predicting a specific price per procedure is difficult due to many factors, including the individual nature of medicine and the 
 complications and side effects that may occur;  however, predicting how a provider compares to the average is reasonable. These
@@ -36,7 +36,7 @@ are actually above average in cost would put an unexpected and unacceptable fina
 
 Data cleaning and model development was done using python Jupyter notebooks with pandas and sklearn. 
 
-### Results:
+#### Results:
 In both cases, the random forest model provided the predictions with the highest precision. The table below summarizes the
 precision for each class and the number of predictions of class 1 that were actually class 3. Decision trees and KNN were close 
 in precision, with logistic regression and SVM far behind at values of 77% and 49%, respectively.
@@ -77,7 +77,7 @@ In the second model,  each provider's  cost  was compared to the state average r
 factors are again seen as the strongest predictors.  Since the impact of the state is partially accounted for in the class 
 itself, state as a predictor was removed in this analysis. 
 
-### Conclusions and future work:
+#### Conclusions and future work:
 Whether a procedure will cost less than, greater than or near average can be predicted using a random forest classification 
 model with 87% precision based on hospital and community specific information. This prediction model could be the basis for a 
 tool that would allow patients to chose the most economic solution for their healthcare needs rather than waiting to receive 
